@@ -1,0 +1,60 @@
+.contactPage{
+    .container{
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+        .wrapContents{
+            display: flex;
+            justify-content: space-between;
+            .textArea{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .mb-25{
+                    margin-bottom: 25px;
+                }
+                .contactTitle{
+                    font-size: 22px;
+                    word-break: keep-all;
+                }
+                .title{
+                    font-size: 22px;
+                    font-weight: bold;
+                    color: #00B4F1;
+                }
+                .text{
+                    font-size: 22px;
+                    word-break: keep-all;
+                    ul{
+                        margin-top: 0;
+                    }
+                }
+            }
+            .mapArea{
+                width: 50%;
+            }
+        }
+    
+    }    
+}
+
+@media all and (max-width:767px){
+	.contactPage{
+        .container{
+            padding: 30px 10px;
+            .wrapContents{
+                flex-direction: column;
+                align-items: center;
+                .textArea{
+                    width: auto;
+                }
+                .mapArea{
+                    width: 360px;
+                }
+            }
+        }
+    }
+}

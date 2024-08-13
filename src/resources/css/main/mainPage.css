@@ -1,0 +1,91 @@
+.main{
+    .main_container{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 30px 0;
+        .textArea{
+            .title{
+                text-align: center;
+                font-size: 48px;
+                span{
+                    font-weight: bold;
+                }
+            }
+            .description{
+                margin:30px 0;
+                font-size: 22px;
+                text-align: center;
+                word-break: keep-all;
+            }
+        }
+        .subTitle{
+            position: relative;
+            border: solid 1px #dedede;
+            span{
+                position: absolute;
+                top: -19px;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: white;
+                padding: 0 35px;
+                font-size: 24px;
+                font-weight: bold;
+                border: solid 1px #dedede;
+            }
+        }
+        .wrapDivision{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 40px;
+            .division{
+                border: solid 1px black;
+                width: 360px;
+                height: 240px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                .moreBtn{
+                    border-radius: 15px;
+                    background-color: #00B4F1;
+                    color: white;
+                    padding: 0 15px;
+                }
+            }
+        }
+    }
+}
+
+/*노트북 & PC : 1024px-*/
+@media all and (min-width:1024px){
+	
+}
+
+/*태블릿 가로, 세로 : 768px-1023px*/
+@media all and (min-width:768px) and (max-width:1023px){
+	
+}
+
+/*모바일 가로, 세로 : -767px*/
+@media all and (max-width:767px){
+	.main {
+        & .main_container {
+            padding: 30px 10px;
+            & .textArea {
+                .title {
+                    font-size: 26px;
+                }
+                .description{
+                    font-size: 16px;
+                }
+            }
+            .wrapDivision{
+                flex-direction: column;
+                align-items: center;
+                .division:not(:last-child){
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

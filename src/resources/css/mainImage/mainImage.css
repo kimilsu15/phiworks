@@ -1,0 +1,9 @@
+.mainImage{
+    max-width: 2560px;
+    height: 540px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 1920px; */
+}

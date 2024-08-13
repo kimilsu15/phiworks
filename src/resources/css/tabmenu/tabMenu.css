@@ -1,0 +1,41 @@
+.tabMenu{
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #808080;
+        padding: 8px 0;
+        margin-bottom: 20px;
+        .tabTitle{
+            display: flex;
+            .tabItem{
+                padding: 10px 35px;
+                cursor: pointer;
+                color: white;
+            }
+            .active{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 25px;
+                background-color: white;
+                color: black;
+            }
+            .tabItem:not(:last-child){
+                margin-right: 25px;
+            }
+        }
+    }
+}
+
+@media all and (max-width:767px){
+	.tabMenu{
+        .container{
+            .tabTitle{
+                .tabItem{
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
+}
