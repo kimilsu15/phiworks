@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/phiworks/static/css/main.d8a54cf2.css",
-    "main.js": "/phiworks/static/js/main.ef1cd83e.js",
-    "static/js/453.d2f01fd9.chunk.js": "/phiworks/static/js/453.d2f01fd9.chunk.js",
-    "static/media/Rix모던고딕M.ttf": "/phiworks/static/media/Rix모던고딕M.5a2ddf3f8f6c53f15216.ttf",
-    "index.html": "/index.html",
-    "main.d8a54cf2.css.map": "/phiworks/static/css/main.d8a54cf2.css.map",
-    "main.ef1cd83e.js.map": "/phiworks/static/js/main.ef1cd83e.js.map",
-    "453.d2f01fd9.chunk.js.map": "/phiworks/static/js/453.d2f01fd9.chunk.js.map"
+    "main.css": "https://kimilsu15.github.io/phiworks/static/css/main.729a672f.css",
+    "main.js": "https://kimilsu15.github.io/phiworks/static/js/main.527cd2f8.js",
+    "static/js/453.d2f01fd9.chunk.js": "https://kimilsu15.github.io/phiworks/static/js/453.d2f01fd9.chunk.js",
+    "static/media/Rix모던고딕M.ttf": "https://kimilsu15.github.io/phiworks/static/media/Rix모던고딕M.5a2ddf3f8f6c53f15216.ttf",
+    "index.html": "https://kimilsu15.github.io/phiworks/index.html",
+    "main.729a672f.css.map": "https://kimilsu15.github.io/phiworks/static/css/main.729a672f.css.map",
+    "main.527cd2f8.js.map": "https://kimilsu15.github.io/phiworks/static/js/main.527cd2f8.js.map",
+    "453.d2f01fd9.chunk.js.map": "https://kimilsu15.github.io/phiworks/static/js/453.d2f01fd9.chunk.js.map"
   },
   "entrypoints": [
-    "/phiworks/static/css/main.d8a54cf2.css",
-    "/phiworks/static/js/main.ef1cd83e.js"
+    "static/css/main.729a672f.css",
+    "static/js/main.527cd2f8.js"
   ]
 }
