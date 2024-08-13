@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8a54cf2.css",
+    "main.js": "/static/js/main.ef1cd83e.js",
+    "static/js/453.d2f01fd9.chunk.js": "/static/js/453.d2f01fd9.chunk.js",
+    "static/media/Rix모던고딕M.ttf": "/static/media/Rix모던고딕M.5a2ddf3f8f6c53f15216.ttf",
+    "index.html": "/index.html",
+    "main.d8a54cf2.css.map": "/static/css/main.d8a54cf2.css.map",
+    "main.ef1cd83e.js.map": "/static/js/main.ef1cd83e.js.map",
+    "453.d2f01fd9.chunk.js.map": "/static/js/453.d2f01fd9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8a54cf2.css",
+    "static/js/main.ef1cd83e.js"
+  ]
+}
