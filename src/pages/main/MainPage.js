@@ -20,7 +20,7 @@ function MainPage() {
     <div className="main">
       <div className="main_container">
         <div className="textArea">
-          <div className="title">WELCOME TO <span>PHI WORKS</span> WEB SITE.</div>
+          <div className="title">WELCOME TO <span>PHI WORKS</span> WEB SITE</div>
           <div className="description">㈜파이웍스는 'Global Power Leader'라는 新 기업경영 기치 아래 AI 기반 IT 사업부문과 제조·판매 부문,<br/> B2B 기반 유통 사업부문 등 핵심 사업부문에서 차별화되고
              세련된 서비스를 제공하고 있는 기업입니다.
           </div>

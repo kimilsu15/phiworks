@@ -15,17 +15,27 @@ function Header() {
   const dropDown = () => {
     setIsDropDown(!isDropDown)
   }
+
+  const onScrollChange = () => {
+    if(window.scrollY > 0){
+      
+    }else{
+      
+    }
+  }
   
   return (
-    <div className="header">
+    <div className="header" onChange={onScrollChange}>
       <div className="container">
         <div className="wrap_logo">
           <div className="logo">
-            <img src={Phiworks_logo} />
+            <Link to={"/phiworks"}>
+              <img src={Phiworks_logo} />
+            </Link>
           </div>
           <div className="wrap_menu">
-            <Link to={"/"}>
-              <div className={navigation === "/" ? "wrap_menu_item active" : "wrap_menu_item"}>About US</div>
+            <Link to={"/phiworks"}>
+              <div className={navigation === "/phiworks" ? "wrap_menu_item active" : "wrap_menu_item"}>About US</div>
             </Link>
             <Link to={"/service"}>
               <div className={navigation === "/service" ? "wrap_menu_item active" : "wrap_menu_item"}>Services</div>

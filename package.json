@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": ".",
+  "homepage": "/phiworks",
   "eslintConfig": {
     "extends": [
       "react-app",

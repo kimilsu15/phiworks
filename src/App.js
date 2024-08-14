@@ -14,7 +14,7 @@ function App() {
       <Header />
       <MainImage />
       <Routes>
-        <Route path="/" element={<MainPage />} />
+        <Route exact path="/phiworks" element={<MainPage />} />
         <Route path="/service" element={<ServicePage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>

@@ -5,8 +5,8 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        padding: 120px 0;
         .wrapTabContents{
-            margin-bottom: 25px;
             display: flex;
             justify-content: space-between;
             .wrapContentsText{
@@ -14,7 +14,6 @@
                 word-break: keep-all;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
                 .title{
                     font-size: 24px;
                     font-weight: bold;
@@ -36,7 +35,7 @@
         .reference{
             display: flex;
             align-items: center;
-            margin-bottom: 25px;
+            margin: 100px 0;
             .referenceBtn{
                 border-radius: 15px;
                 background-color: #00B4F1;
@@ -60,6 +59,18 @@
                 top:20%;                    
             }
         }
+        .reference:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+
+/*노트북 & PC : 1024px-*/
+@media all and (min-width:1024px) and (max-width:1919px){
+	.service {
+        .service_container {
+            padding: 120px 30px;
+        }
     }
 }
 
@@ -67,7 +78,7 @@
 @media all and (max-width:767px){
 	.service{
         .service_container{
-            padding: 0 10px;
+            padding: 120px 30px;
             .wrapTabContents{
                 flex-direction: column;
                 align-items: center;

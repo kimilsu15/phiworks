@@ -9,9 +9,10 @@
         .tabTitle{
             display: flex;
             .tabItem{
-                padding: 10px 35px;
                 cursor: pointer;
                 color: white;
+                display: flex;
+                align-items: center;
             }
             .active{
                 display: flex;
@@ -20,6 +21,8 @@
                 border-radius: 25px;
                 background-color: white;
                 color: black;
+                width:167px;
+                height: 43px;
             }
             .tabItem:not(:last-child){
                 margin-right: 25px;
@@ -32,8 +35,9 @@
 	.tabMenu{
         .container{
             .tabTitle{
-                .tabItem{
-                    padding: 10px 15px;
+                .active{
+                    width:130px;
+                    height: 33px;
                 }
             }
         }
