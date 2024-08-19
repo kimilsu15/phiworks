@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "https://kimilsu15.github.io/phiworks/static/css/main.8fec256d.css",
+    "main.css": "https://kimilsu15.github.io/phiworks/static/css/main.57754df7.css",
     "main.js": "https://kimilsu15.github.io/phiworks/static/js/main.9421d5db.js",
     "static/js/453.d2f01fd9.chunk.js": "https://kimilsu15.github.io/phiworks/static/js/453.d2f01fd9.chunk.js",
     "static/media/Rix모던고딕M.ttf": "https://kimilsu15.github.io/phiworks/static/media/Rix모던고딕M.5a2ddf3f8f6c53f15216.ttf",
     "index.html": "https://kimilsu15.github.io/phiworks/index.html",
-    "main.8fec256d.css.map": "https://kimilsu15.github.io/phiworks/static/css/main.8fec256d.css.map",
+    "main.57754df7.css.map": "https://kimilsu15.github.io/phiworks/static/css/main.57754df7.css.map",
     "main.9421d5db.js.map": "https://kimilsu15.github.io/phiworks/static/js/main.9421d5db.js.map",
     "453.d2f01fd9.chunk.js.map": "https://kimilsu15.github.io/phiworks/static/js/453.d2f01fd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fec256d.css",
+    "static/css/main.57754df7.css",
     "static/js/main.9421d5db.js"
   ]
 }
