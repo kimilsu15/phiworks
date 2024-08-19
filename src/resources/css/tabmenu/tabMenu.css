@@ -1,14 +1,13 @@
 .tabMenu{
     .container{
         display: flex;
+        justify-content: center;
         align-items: center;
         background-color: #0f0f0f;
         padding: 8px 0;
         margin-bottom: 20px;
         .tabTitle{
             display: flex;
-            justify-content: space-evenly;
-            width: 100%;
             .tabItem{
                 cursor: pointer;
                 color: white;
@@ -26,7 +25,7 @@
                 height: 43px;
             }
             .tabItem:not(:last-child){
-                margin-right: 25px;
+                margin-right: 95px;
             }
         }
     }
@@ -39,6 +38,9 @@
                 .active{
                     width:130px;
                     height: 33px;
+                }
+                .tabItem:not(:last-child){
+                    margin-right: 25px;
                 }
             }
         }
