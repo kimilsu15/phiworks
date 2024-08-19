@@ -1,12 +1,26 @@
-.mainImage{
+.mainImage, .itTab, .manufacturingTab, .circulationTab, .contact{
     max-width: 2560px;
     height: 480px;
     border: solid 1px black;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../../../resources/images/contentsImg/PHI_ws_image_1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.mainImage{
+    background-image: url("../../../resources/images/contentsImg/PHI_ws_image_1.jpg");
+}
+.itTab{
+    background-image: url("../../../resources/images/contentsImg/PHI_ws_image_5.jpg");
+}
+.manufacturingTab{
+    background-image: url("../../../resources/images/contentsImg/PHI_ws_image_10.jpg");
+}
+.circulationTab{
+    background-image: url("../../../resources/images/contentsImg/PHI_ws_image_12.jpg");
+}
+.contact{
+    background-image: url("../../../resources/images/contentsImg/PHI_ws_image_14.jpg");
 }

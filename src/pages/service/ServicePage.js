@@ -46,7 +46,7 @@ function TabContents({tabContentsData}) {
     </>
   )
 }
-function ServicePage() {
+function ServicePage({nowTab, setNowTab}) {
   const tabTitle = [
     {
       id : "1",
@@ -61,7 +61,7 @@ function ServicePage() {
       name: "유통 사업부문",
     }
   ];
-  const [nowTab, setNowTab] = useState("");
+  // const [nowTab, setNowTab] = useState("");
   const navigation = useLocation();
   const tabParam = navigation?.search?.split("=")?.[1];
   const [tabContentsData, setTabContentsData] = useState();

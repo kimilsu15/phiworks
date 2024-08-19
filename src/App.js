@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "./resources/css/reset.css";
@@ -9,13 +10,14 @@ import MainImage from "./component/mainImage/MainImage";
 import Footer from "./component/footer/Footer";
 
 function App() {
+  const [nowTab, setNowTab] = useState("");
   return (
     <BrowserRouter>
       <Header />
-      <MainImage />
+      <MainImage nowTab={nowTab} />
       <Routes>
         <Route exact path="/phiworks" element={<MainPage />} />
-        <Route path="/service" element={<ServicePage />} />
+        <Route path="/service" element={<ServicePage nowTab={nowTab} setNowTab={setNowTab} />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />

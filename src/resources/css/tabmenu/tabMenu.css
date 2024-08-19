@@ -1,13 +1,14 @@
 .tabMenu{
     .container{
         display: flex;
-        justify-content: center;
         align-items: center;
         background-color: #0f0f0f;
         padding: 8px 0;
         margin-bottom: 20px;
         .tabTitle{
             display: flex;
+            justify-content: space-evenly;
+            width: 100%;
             .tabItem{
                 cursor: pointer;
                 color: white;
