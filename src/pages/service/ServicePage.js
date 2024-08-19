@@ -22,20 +22,22 @@ function TabContents({tabContentsData}) {
                     })
                   }
                 </ul>
+                <div className="reference">
+                  <div className="referenceBtn">Reference</div>
+                  <div className="wrapReferenceText">
+                    {
+                      item.reference.map((vv,ii)=>{
+                        return(
+                          <div className="referenceText" key={ii}>{vv}</div>
+                        )
+                      })
+                    }
+                  </div>
+                </div>
               </div>
-              <div className="wrapContentsImage">
-                <img src={item.image}/>
+              <div className="wrapContentsImage" style={{backgroundImage:`url(${item.image})`}}>
+                {/* <img src={item.image}/> */}
               </div>
-            </div>
-            <div className="reference">
-              <div className="referenceBtn">Reference</div>
-              {
-                item.reference.map((vv,ii)=>{
-                  return(
-                    <div className="referenceText" key={ii}>{vv}</div>
-                  )
-                })
-              }
             </div>
           </>
         )

@@ -1,5 +1,5 @@
 import "../../resources/css/mainImage/mainImage.css"
 function MainImage() {
-  return <div className="mainImage">MainImage</div>;
+  return <div className="mainImage"></div>;
 }
 export default MainImage;

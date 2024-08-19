@@ -13,10 +13,10 @@ code {
 }
 
 @font-face {
-  font-family: "Rix모던고딕M";
-  font-weight: normal;
-  src: url("./resources/fonts/Rix모던고딕M.ttf") format("truetype");
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 body{
-  font-family: "Rix모던고딕M";
+  font-family: "Nanum Gothic";
 }

@@ -5,12 +5,12 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 120px 0;
+        padding: 60px 0 120px 0;
         .wrapTabContents{
             display: flex;
             justify-content: space-between;
             .wrapContentsText{
-                width: 50%;
+                width: 60%;
                 word-break: keep-all;
                 display: flex;
                 flex-direction: column;
@@ -32,10 +32,19 @@
                 }
             }
         }
+        .wrapContentsImage{
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 490px;
+            height: 370px;
+        }
+        .wrapTabContents:not(:last-child){
+            margin-bottom: 100px;
+        }
         .reference{
             display: flex;
             align-items: center;
-            margin: 100px 0;
             .referenceBtn{
                 border-radius: 15px;
                 background-color: #00B4F1;
@@ -43,8 +52,11 @@
                 padding: 0 25px;
                 font-size: 22px;
             }
+            .wrapReferenceText{
+                display: flex;
+            }
             .referenceText{
-                font-size: 22px;
+                font-size: 18px;
                 margin-left: 25px;
                 position: relative;
             }
@@ -70,6 +82,24 @@
 	.service {
         .service_container {
             padding: 120px 30px;
+            .reference{
+                .referenceBtn{
+                    margin-right: 16px;
+                }
+                .wrapReferenceText{
+                    display: flex;
+                    max-width: 360px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    overflow-x: auto;
+                    .referenceText{
+                        margin-left: 0;
+                    }
+                    .referenceText:not(:first-child){
+                        margin-left: 25px;
+                    }
+                }
+            }
         }
     }
 }
@@ -78,13 +108,18 @@
 @media all and (max-width:767px){
 	.service{
         .service_container{
-            padding: 120px 30px;
+            padding: 60px 10px 120px 10px;
             .wrapTabContents{
                 flex-direction: column;
                 align-items: center;
                 .wrapContentsText{
                     width: auto;
+                    margin: 10px 0;
                 }
+            }
+            .wrapContentsImage{
+                width: 360px;
+                height: 240px;
             }
             .reference{
                 flex-direction: column;

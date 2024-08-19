@@ -5,28 +5,28 @@
             "description": "기술과 서비스를 제공하는 기반 구조를 구축하여 다양한 애플리케이션, 서비스, 사용자들이 이를 활용할 수 있게 하는 사업을 수행하고 있습니다.",
             "ul": ["기술적 경쟁우위 확보", "비즈니스 생태계 구축", "비즈니스 혁신 촉진", "빅데이터 활용", "경영비용 절감", "사용자 편의성 제공"],
             "reference" : ["e-Commerce 플랫폼 구축", "Personal Care 플랫폼 구축", "Mobility 통합 플랫폼 구축"],
-            "image": "/phiworks/img/testImage.jpg"
+            "image": "/phiworks/img/serviceImage/PHI_ws_image_6.jpg"
         },
         {
             "title": "기업 맞춤형 솔루션(Solution) 개발 사업",
             "description": "고객의 특정 요구와 문제를 해결하기 위해 맞춤형 소프트웨어나 시스템을 설계하고 구현하는 사업으로, 비즈니스 목표를 달성하는 데 핵심적인 역할을 합니다.",
             "ul": ["업무 효율성 증대", "기업 경쟁력 강화", "데이터 관리 및 분석", "업무의 유연성 및 적응성", "고객 만족도 향상", "지속 가능한 성장"],
             "reference" : ["한국리서치 조사 통계 분석 솔루션", "한국리서치 광고분석 솔루션"],
-            "image": "/phiworks/img/testImage.jpg"
+            "image": "/phiworks/img/serviceImage/PHI_ws_image_7.jpg"
         },
         {
             "title": "정보시스템 운영 유지관리 사업",
             "description": "기업의 정보시스템 유지관리는 시스템의 안정성을 확보하고, 조직의 효율성과 신뢰성을 높이는 데 필수적인 요소입니다.",
             "ul": ["시스템 운영의 안정성", "보안 강화", "성능 최적화", "비용 절감", "법규 준수", "기술 변화 대응"],
             "reference" : ["오토앤 정보시스템 운영 유지관리 사업", "경찰청 희망품목시스템 유지관리 사업"],
-            "image": "/phiworks/img/testImage.jpg"
+            "image": "/phiworks/img/serviceImage/PHI_ws_image_8.jpg"
         },
         {
             "title": "정보시스템 구축 사업",
             "description": "기업의 가치를 극대화시키기 위해 시스템의 SW, HW, NW 등 인프라 설계와 구현, 발주 및 조달, 사용자의 요구에 맞춘 응용 소프트웨어의 개발을 위한 시스템 통합 사업입니다.",
             "ul": ["업무 효율성 확보", "기업 경쟁력 강화", "스케일업의 용이성", "위험관리 최적화", "고객서비스 향상"],
             "reference" : ["경찰청 경찰장비 통합관리시스템 구축", "국토교통부 자동차 압류해제시스템 구축"],
-            "image": "/phiworks/img/testImage.jpg"
+            "image": "/phiworks/img/serviceImage/PHI_ws_image_9.jpg"
         }
     ],
     "manufacturing":[
@@ -35,7 +35,7 @@
             "description": "㈜파이웍스는 시장의 요구에 맞춘 고품질의 제품을 기획, 제조·생산, 판매까지의 모든 과정을 직접 수행하며, 국내·외 주요 거래선을 통해 납품하고 있습니다.",
             "ul": ["Global 물류 유통채널 보유", "GSCM 안정성 확보", "Global 표준 품질관리시스템 적용","ESG 기반 제조·생산","시장 경쟁우위 확보"],
             "reference" : ["이마트 친환경 쇼핑백 제조"],
-            "image": "/phiworks/img/testImage.jpg"
+            "image": "/phiworks/img/serviceImage/PHI_ws_image_11.jpg"
         }
     ],
     "circulation":[
@@ -44,7 +44,7 @@
             "description": "국내 최대 산업공구 유통사인 동신툴피아간 협력을 통해 국내·외 산업현장에서 필요한 모든 물품을 직배송을 통해 기업에 공급하고 있습니다.",
             "ul": ["산업공구 전반", "일반 소모품", "작업공구 및 기자재","일반 자재 및 작업기계","대형 공작기계 등"],
             "reference" : ["국내·외 제조·생산 기업"],
-            "image": "/phiworks/img/testImage.jpg"
+            "image": "/phiworks/img/serviceImage/PHI_ws_image_13.jpg"
         }
     ]
 }

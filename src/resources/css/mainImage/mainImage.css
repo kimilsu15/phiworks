@@ -1,9 +1,12 @@
 .mainImage{
     max-width: 2560px;
-    height: 540px;
+    height: 480px;
     border: solid 1px black;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 1920px; */
+    background-image: url("../../../resources/images/contentsImg/PHI_ws_image_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
