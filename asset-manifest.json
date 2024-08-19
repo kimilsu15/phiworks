@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://kimilsu15.github.io/phiworks/static/css/main.526d2e25.css",
+    "main.css": "https://kimilsu15.github.io/phiworks/static/css/main.efdc1f0f.css",
     "main.js": "https://kimilsu15.github.io/phiworks/static/js/main.85dd67a8.js",
     "static/js/453.d2f01fd9.chunk.js": "https://kimilsu15.github.io/phiworks/static/js/453.d2f01fd9.chunk.js",
     "static/media/PHI_ws_image_10.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_10.c94d10475b8acf9964d0.jpg",
@@ -12,12 +12,12 @@
     "static/media/PHI_ws_image_3.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_3.c682fd5d3c090bde19b1.jpg",
     "static/media/PHI_ws_image_4.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_4.2cdf38d9b4599ef827ec.jpg",
     "index.html": "https://kimilsu15.github.io/phiworks/index.html",
-    "main.526d2e25.css.map": "https://kimilsu15.github.io/phiworks/static/css/main.526d2e25.css.map",
+    "main.efdc1f0f.css.map": "https://kimilsu15.github.io/phiworks/static/css/main.efdc1f0f.css.map",
     "main.85dd67a8.js.map": "https://kimilsu15.github.io/phiworks/static/js/main.85dd67a8.js.map",
     "453.d2f01fd9.chunk.js.map": "https://kimilsu15.github.io/phiworks/static/js/453.d2f01fd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.526d2e25.css",
+    "static/css/main.efdc1f0f.css",
     "static/js/main.85dd67a8.js"
   ]
 }
