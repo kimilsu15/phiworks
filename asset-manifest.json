@@ -1,23 +1,35 @@
 {
   "files": {
-    "main.css": "https://kimilsu15.github.io/phiworks/static/css/main.efdc1f0f.css",
-    "main.js": "https://kimilsu15.github.io/phiworks/static/js/main.85dd67a8.js",
+    "main.css": "https://kimilsu15.github.io/phiworks/static/css/main.cc136173.css",
+    "main.js": "https://kimilsu15.github.io/phiworks/static/js/main.eb175616.js",
     "static/js/453.d2f01fd9.chunk.js": "https://kimilsu15.github.io/phiworks/static/js/453.d2f01fd9.chunk.js",
     "static/media/PHI_ws_image_10.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_10.c94d10475b8acf9964d0.jpg",
+    "static/media/Rix모던명조EB.TTF": "https://kimilsu15.github.io/phiworks/static/media/Rix모던명조EB.416337ff671a9180c36f.TTF",
+    "static/media/Rix모던명조B.ttf": "https://kimilsu15.github.io/phiworks/static/media/Rix모던명조B.e0e8a876fa96a8e537dd.ttf",
     "static/media/PHI_ws_image_1.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_1.1bd1114563f5679cda93.jpg",
+    "static/media/PHI_ws_image_7.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_7.14f0dd55d2782b826103.jpg",
+    "static/media/PHI_ws_image_6.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_6.52ce320a86f085c53766.jpg",
+    "static/media/PHI_ws_image_8.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_8.0066732f183d6f6d70fb.jpg",
     "static/media/PHI_ws_image_2.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_2.473b84a38181199d1504.jpg",
+    "static/media/Rix모던고딕EB.ttf": "https://kimilsu15.github.io/phiworks/static/media/Rix모던고딕EB.ec72eee183dc2da19992.ttf",
+    "static/media/Rix모던고딕L.ttf": "https://kimilsu15.github.io/phiworks/static/media/Rix모던고딕L.b01d3a64bf241a489412.ttf",
+    "static/media/Rix모던고딕B.ttf": "https://kimilsu15.github.io/phiworks/static/media/Rix모던고딕B.c8c283b8c21957b03200.ttf",
+    "static/media/PHI_ws_image_9.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_9.6610d67418614f32f9d1.jpg",
+    "static/media/Rix모던고딕M.ttf": "https://kimilsu15.github.io/phiworks/static/media/Rix모던고딕M.5a2ddf3f8f6c53f15216.ttf",
     "static/media/PHI_ws_image_5.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_5.458c5b308537352d23c9.jpg",
     "static/media/PHI_ws_image_14.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_14.ab3517ec761cbff11d9c.jpg",
     "static/media/PHI_ws_image_12.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_12.6969635359a0e534b192.jpg",
+    "static/media/PHI_ws_image_13.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_13.603e76f5118cc578b03b.jpg",
     "static/media/PHI_ws_image_3.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_3.c682fd5d3c090bde19b1.jpg",
+    "static/media/PHI_ws_image_11.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_11.86b7d422c26cebcf4f88.jpg",
     "static/media/PHI_ws_image_4.jpg": "https://kimilsu15.github.io/phiworks/static/media/PHI_ws_image_4.2cdf38d9b4599ef827ec.jpg",
     "index.html": "https://kimilsu15.github.io/phiworks/index.html",
-    "main.efdc1f0f.css.map": "https://kimilsu15.github.io/phiworks/static/css/main.efdc1f0f.css.map",
-    "main.85dd67a8.js.map": "https://kimilsu15.github.io/phiworks/static/js/main.85dd67a8.js.map",
+    "main.cc136173.css.map": "https://kimilsu15.github.io/phiworks/static/css/main.cc136173.css.map",
+    "main.eb175616.js.map": "https://kimilsu15.github.io/phiworks/static/js/main.eb175616.js.map",
     "453.d2f01fd9.chunk.js.map": "https://kimilsu15.github.io/phiworks/static/js/453.d2f01fd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efdc1f0f.css",
-    "static/js/main.85dd67a8.js"
+    "static/css/main.cc136173.css",
+    "static/js/main.eb175616.js"
   ]
 }
