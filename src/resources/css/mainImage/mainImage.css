@@ -1,21 +1,22 @@
 .mainImage, .itTab, .manufacturingTab, .circulationTab, .contact{
     max-width: 2560px;
     height: 480px;
-    border: solid 1px black;
     display: flex;
-    justify-content: center;
     align-items: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-left: 11%;
     .imageText{
         color: white;
         .title{
             font-weight: bold;
             font-size: 48px;
+            white-space: pre-wrap;
+            line-height: 1.1;
         }
         .description{
-            margin:30px 0;
+            margin:10px 0;
             font-size: 22px;
             word-break: keep-all;
         }
@@ -37,11 +38,19 @@
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../../../resources/images/contentsImg/PHI_ws_image_14.jpg");
 }
 
+/*노트북 & PC : 1024px-*/
+@media all and (min-width:1024px) and (max-width:1919px){
+	.mainImage, .itTab, .manufacturingTab, .circulationTab, .contact{
+        padding-left: 17%;
+    }
+}
+
 @media all and (min-width:768px) and (max-width:1023px){
     .mainImage, .itTab, .manufacturingTab, .circulationTab, .contact{
         .imageText{
             .title{
                 font-size: 32px;
+                white-space: normal;
             }
             .description{
                 font-size: 18px;

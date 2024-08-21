@@ -143,3 +143,15 @@
         }
     }
 }
+@media all and (max-width:420px){
+    .main {
+        & .main_container {
+            & .wrapDivision {
+                .division {
+                    width: 320px;
+                    height: 120px;
+                }
+            }
+        }
+    }
+}

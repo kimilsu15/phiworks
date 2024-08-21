@@ -20,7 +20,7 @@ function MainImage({nowTab}) {
   const [nowText, setNowText] = useState({});
   const textData = {
     mainPage : {
-      title : "The names that can be PHI WORKS"
+      title : "The name that can be \nPHI WORKS"
     },
     business : {
       title : "Innovative Technology, Reliable Service",
@@ -41,7 +41,7 @@ function MainImage({nowTab}) {
   }
 
   useEffect(()=>{
-    if(nowPage === "/phiworks" || nowPage === "/phiworks/"){
+    if(nowPage === "/"){
       setNowText(textData.mainPage);
     }else if(nowPage === "/service" && nowTab === "1"){
       setNowText(textData.business);
