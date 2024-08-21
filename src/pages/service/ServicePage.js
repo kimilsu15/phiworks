@@ -35,7 +35,7 @@ function TabContents({tabContentsData}) {
                   </div>
                 </div>
               </div>
-              <div className="wrapContentsImage" style={{backgroundImage:`url(${item.image})`}}>
+              <div className="wrapContentsImage" style={{backgroundImage:"url(" + require("../../resources" + item.image) + ")"}}>
                 {/* <img src={item.image}/> */}
               </div>
             </div>

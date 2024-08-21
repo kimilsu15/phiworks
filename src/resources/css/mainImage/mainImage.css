@@ -8,19 +8,31 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    .imageText{
+        color: white;
+        .title{
+            font-weight: bold;
+            font-size: 48px;
+        }
+        .description{
+            margin:30px 0;
+            font-size: 22px;
+            word-break: keep-all;
+        }
+    }
 }
 .mainImage{
-    background-image: url("../../../resources/images/contentsImg/PHI_ws_image_1.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../../../resources/images/contentsImg/PHI_ws_image_1.jpg"); 
 }
 .itTab{
-    background-image: url("../../../resources/images/contentsImg/PHI_ws_image_5.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../../../resources/images/contentsImg/PHI_ws_image_5.jpg");
 }
 .manufacturingTab{
-    background-image: url("../../../resources/images/contentsImg/PHI_ws_image_10.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../../../resources/images/contentsImg/PHI_ws_image_10.jpg");
 }
 .circulationTab{
-    background-image: url("../../../resources/images/contentsImg/PHI_ws_image_12.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../../../resources/images/contentsImg/PHI_ws_image_12.jpg");
 }
 .contact{
-    background-image: url("../../../resources/images/contentsImg/PHI_ws_image_14.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../../../resources/images/contentsImg/PHI_ws_image_14.jpg");
 }

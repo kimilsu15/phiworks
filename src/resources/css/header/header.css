@@ -22,13 +22,12 @@
                 }
             }
             .wrap_menu{
+                display: flex;
                 a{
                     display: flex;
                     align-items: stretch;
                     justify-content: center;
-                    
                 }
-                display: flex;
                 .wrap_menu_item{
                     position: relative;
                     padding: 0 25px;
@@ -39,15 +38,19 @@
                 .wrap_menu_item:not(:last-child){
                     border-right: 1px solid #000;
                 }
-                .active::before{
+                .wrap_menu_item::before{
                     content: "";
                     display: block;
-                    width: 80%;
+                    width: 0;
                     height: 3px;
                     background-color: #00B4F1;
                     position: absolute;
                     top: 5px;
                     left: 11%;
+                }
+                .wrap_menu_item.active::before{
+                    width: 80%;
+                    transition: width .6s cubic-bezier(.23,1,.32,1);
                 }
             }
         }

@@ -11,6 +11,7 @@ function Header() {
   const [isDropDown, setIsDropDown] = useState(false);
   const [open, setOpen] = useState(false);
   const [isScroll, setIsScroll] = useState(false);
+  const [isHover, setIsHover] = useState("");
   const navigation = useLocation().pathname;
   
   const dropDown = () => {
@@ -22,7 +23,14 @@ function Header() {
       window.scrollY > 0 ? setIsScroll(true) : setIsScroll(false)
     });
   }, [isScroll]);
-  
+
+  const handleMouseOver = (title) => {
+    setIsHover(title);
+  }
+
+  const handleMouseOut = () => {
+    setIsHover("");
+  }
   
   return (
     <div className="header" id="header">
@@ -35,13 +43,19 @@ function Header() {
           </div>
           <div className="wrap_menu">
             <Link to={"/phiworks"}>
-              <div className={navigation === "/phiworks" || navigation === "/phiworks/" ? "wrap_menu_item active" : "wrap_menu_item"}>About US</div>
+              <div className={isHover === "" ? navigation === "/phiworks" || navigation === "/phiworks/" ? "wrap_menu_item active" : "wrap_menu_item" : isHover === "/phiworks/" ? "wrap_menu_item active" : "wrap_menu_item"} 
+                onMouseOver={() => handleMouseOver("/phiworks/")}
+                onMouseOut={() => handleMouseOut()}>About US</div>
             </Link>
             <Link to={"/service"}>
-              <div className={navigation === "/service" ? "wrap_menu_item active" : "wrap_menu_item"}>Services</div>
+              <div className={isHover === "" ? navigation === "/service" ? "wrap_menu_item active" : "wrap_menu_item" : isHover === "/service" ? "wrap_menu_item active" : "wrap_menu_item"}
+              onMouseOver={() => handleMouseOver("/service")}
+              onMouseOut={() => handleMouseOut()}>Services</div>
             </Link>
             <Link to={"/contact"}>
-              <div className={navigation === "/contact" ? "wrap_menu_item active" : "wrap_menu_item"}>Contact US</div>
+              <div className={isHover === "" ?  navigation === "/contact" ? "wrap_menu_item active" : "wrap_menu_item" : isHover === "/contact" ? "wrap_menu_item active" : "wrap_menu_item"}
+              onMouseOver={() => handleMouseOver("/contact")}
+              onMouseOut={() => handleMouseOut()}>Contact US</div>
             </Link>
           </div>
         </div>
