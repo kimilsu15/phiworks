@@ -37,14 +37,14 @@ function Header() {
       <div className={isScroll ? "container scroll" : "container"}>
         <div className="wrap_logo">
           <div className="logo">
-            <Link to={"/phiworks"}>
+            <Link to={"/"}>
               <img src={Phiworks_logo} />
             </Link>
           </div>
           <div className="wrap_menu">
-            <Link to={"/phiworks"}>
-              <div className={isHover === "" ? navigation === "/phiworks" || navigation === "/phiworks/" ? "wrap_menu_item active" : "wrap_menu_item" : isHover === "/phiworks/" ? "wrap_menu_item active" : "wrap_menu_item"} 
-                onMouseOver={() => handleMouseOver("/phiworks/")}
+            <Link to={"/"}>
+              <div className={isHover === "" ? navigation === "/" ? "wrap_menu_item active" : "wrap_menu_item" : isHover === "/" ? "wrap_menu_item active" : "wrap_menu_item"} 
+                onMouseOver={() => handleMouseOver("/")}
                 onMouseOut={() => handleMouseOut()}>About US</div>
             </Link>
             <Link to={"/service"}>

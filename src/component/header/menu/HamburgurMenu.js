@@ -4,7 +4,7 @@ export default function HamburgerMenu() {
         <div className="hamburgerMenu">
             <div className="container">
                 <div className="ham_wrap_menu">
-                    <Link to={"/phiworks"}>
+                    <Link to={"/"}>
                         <div className="ham_wrap_menu_item">About US</div>
                     </Link>
                     <Link to={"/service"}>

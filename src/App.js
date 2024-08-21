@@ -16,7 +16,7 @@ function App() {
       <Header />
       <MainImage nowTab={nowTab} />
       <Routes>
-        <Route exact path="/phiworks" element={<MainPage />} />
+        <Route exact path="/" element={<MainPage />} />
         <Route path="/service" element={<ServicePage nowTab={nowTab} setNowTab={setNowTab} />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
