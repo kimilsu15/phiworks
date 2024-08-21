@@ -36,3 +36,29 @@
 .contact{
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../../../resources/images/contentsImg/PHI_ws_image_14.jpg");
 }
+
+@media all and (min-width:768px) and (max-width:1023px){
+    .mainImage, .itTab, .manufacturingTab, .circulationTab, .contact{
+        .imageText{
+            .title{
+                font-size: 32px;
+            }
+            .description{
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media all and (max-width:767px){
+    .mainImage, .itTab, .manufacturingTab, .circulationTab, .contact{
+        .imageText{
+            padding : 0 10px;
+            .title{
+                font-size: 30px;
+            }
+            .description{
+                font-size: 15px;
+            }
+        }
+    }
+}
